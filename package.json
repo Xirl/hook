@@ -1,0 +1,13 @@
+{
+  "name": "hooks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+     "start": "pm2 start ./hook.js --watch --name='hook'",
+     "stop": "pm2 stop hook"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
