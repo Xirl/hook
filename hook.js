@@ -31,6 +31,7 @@ let server = http.createServer(function(req,res){
         child.stdout.on('end', function () {
           let logs = Buffer.concat(buffers).toString();
         });
+      }
     });
   }else{
     res.end('Now Found!');
